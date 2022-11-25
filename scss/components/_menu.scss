@@ -1,0 +1,56 @@
+
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: var(--white);
+
+	.menu__logo {
+		display: flex;
+		padding: 24px 0 25px 0;
+		font-weight: 700;
+		font-size: 26px;
+		line-height: 1.19;
+		text-decoration: none;
+		color: var(--color-blue);
+		font-family: 'Raleway';
+
+		.menu__logo-black {
+			color: var(--black);
+		}
+	}
+}
+
+
+// .menu {
+// 	display: flex;
+// 	flex-direction: row;
+// 	align-items: center;
+// 	background-color: var(--white);
+// }
+
+// .border-line {
+// 	border-bottom: 1px solid var(--header-border);
+// }
+
+// .menu__logo {
+// 	display: flex;
+// 	padding: 24px 0 25px 0;
+// 	font-weight: 700;
+// 	font-size: 26px;
+// 	line-height: 1.19;
+// 	text-decoration: none;
+// 	color: var(--color-blue);
+// 	font-family: 'Raleway';
+// }
+
+// .menu__logo-black {
+// 	color: var(--black);
+// }
+
+
+
+
+
+

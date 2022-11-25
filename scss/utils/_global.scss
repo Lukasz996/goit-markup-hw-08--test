@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	margin: auto;
+	padding: 0;
+	color: var(--vdark-gray);
+	font-family: 'Roboto';
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+svg {
+	fill: var(--blight-gray);
+	transition: fill var(--transition-duration) var(--cubic-bezier);
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 15px;
+}
+
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.border-line {
+	border-bottom: 1px solid var(--header-border);
+}
+
+.main-header-index {
+	margin-top: 0;
+	margin-bottom: 50px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+}
+

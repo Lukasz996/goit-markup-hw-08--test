@@ -1,0 +1,36 @@
+.link:hover,
+.link:focus,
+.contact__icon-mail:hover,
+.contact__icon-mail:focus,
+.contact__link-grey:hover,
+.contact__link-grey:focus,
+.footer__link-grey-footer:hover,
+.footer__link-grey-footer:focus {
+	text-decoration: none;
+	color: var(--color-blue);
+	fill: var(--color-blue);
+	transition: color var(--transition-duration) var(--cubic-bezier);
+}
+
+.contact__link-grey:focus .contact__icon-mail,
+.contact__link-grey:hover .contact__icon-mail {
+	fill: var(--color-blue);
+}
+
+.portfolio__buttons button:hover,
+.portfolio__buttons button:focus {
+	color: var(--white);
+	background-color: var(--color-blue);
+}
+
+.index__btn:hover {
+	border-radius: 4px;
+	color: var(--white);
+	background-color: var(--color-blue);
+	border-color: var(--color-blue);
+}
+
+.card__item:hover {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+	cursor: pointer;
+}
