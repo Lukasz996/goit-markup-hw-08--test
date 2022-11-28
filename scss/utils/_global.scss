@@ -19,9 +19,13 @@ svg {
 .container {
 	margin: 0 auto;
 	width: 100%;
-	max-width: 1200px;
 	padding: 0 15px;
+	max-width: 1200px;
+	// max-width: var(--mobile);
+	// min-width: 320px;
+	// max-width: 1170px;
 }
+	
 
 .section {
 	padding-top: 94px;
@@ -39,4 +43,5 @@ svg {
 	font-size: 36px;
 	line-height: 1.17;
 }
+
 

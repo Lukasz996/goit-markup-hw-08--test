@@ -1,6 +1,7 @@
 
 
 .menu {
+	// position: absolute;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -20,11 +21,31 @@
 			color: var(--black);
 		}
 	}
+
 }
+
+// .menu__burger-icon{
+// 	border: none;
+// 	background-color: transparent;
+// 	// margin-left: 284px;
+// 	cursor: pointer;
+
+	
+// 	.menu__burger-svg{
+// 		fill: #000;
+
+// 		&:focus,
+// 		&:hover{
+// 			fill: var(--color-blue);
+// 		}
+// 	}
+// }
+
+
 
 
 // .menu {
-// 	display: flex;
+	// 	display: flex;
 // 	flex-direction: row;
 // 	align-items: center;
 // 	background-color: var(--white);

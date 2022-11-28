@@ -1,17 +1,18 @@
 .our-list {
 	background-color: var(--white);
-
+	// max-width: var(--mobile);
+	
 	.our-list__main-center {
 		display: flex;
 		padding: 77px 15px 0 15px;
 		margin-bottom: 0;
 		gap: 30px;
 	}
-
+	
 	.our-list__frame {
 		flex-basis: calc((100% - 90px) / 4);
 	}
-
+	
 	.our-list__svg-icons {
 		display: flex;
 		justify-content: center;
@@ -21,7 +22,7 @@
 		margin-bottom: 30px;
 		background-color: var(--vlight-gray);
 	}
-
+	
 	.our-list__title {
 		margin-bottom: 10px;
 		margin-top: 0;
